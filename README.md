@@ -22,3 +22,7 @@ The purpose of this template is to allow for a quick start with AWS IaC projects
   - In a terminal:
     - execute `aws configure` and connect the shell to AWS
     - execute `cd /workshop && terraform init`
+
+## Other Aspects
+
+If you want to use this template for multiple projects, it is recommended to change the submodule mount path to unique names, otherwise the docker compose operations on the same directory may go in conflict with one another. This can be easily achieved with a `git move` command as explained in [this article](https://themightyprogrammer.dev/snippet/moving-git-submodule).
