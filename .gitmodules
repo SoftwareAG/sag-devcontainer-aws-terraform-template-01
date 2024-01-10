@@ -1,0 +1,4 @@
+[submodule ".devcontainer/aws-tf-01"]
+	path = .devcontainer/aws-tf-01
+	url = git@github.com:SoftwareAG/sag-devcontainer-aws-terraform.git
+	branch = main
